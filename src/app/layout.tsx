@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable} p-2`}>
+      <body className={`font-sans ${inter.variable}`}>
         <TRPCReactProvider headers={headers()}>
           <Navbar />
           {children}
